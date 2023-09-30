@@ -4,12 +4,13 @@ import { ClockIcon, MapPinIcon } from '@heroicons/react/24/outline';
 import InvisLogo from '../Images/invisalign-logo.jpg';
 import StraumannLogo from '../Images/straumann.jpg';
 import GroupImage from '../Images/Gruppbilder/Tandhälsan_gruppbildv1_highres.jpg';
+import Vantrum from '../Images/tandhalsan_vantrum.jpg';
 
 function Home() {
 	return (
 		<div className="min-h-screen">
 			<div className="relative mb-16 sm:mb-0">
-				<img className="w-full h-auto" src="https://th.bing.com/th/id/R.e1707c345d5ac10c80a674030e606643?rik=pOsTg5KBoLuNvw&riu=http%3a%2f%2fwww.snut.fr%2fwp-content%2fuploads%2f2015%2f08%2fimage-de-paysage.jpg&ehk=1O5SWKkGpZ8yU%2b%2fAnLXG1v8k6BKxgyiXgHbOWBW1ir0%3d&risl=1&pid=ImgRaw&r=0" alt="image" />
+				<img className="w-full h-auto" src={Vantrum} alt="image" />
 				<div className="p-5 bg-zinc-900 w-full absolute text-white justify-center 
 				sm:bg-transparent sm:bottom-0 sm:left-0 sm:right-0 p-2 flex
 				md:justify-end md:items-end md:bottom-10 md:pr-10">

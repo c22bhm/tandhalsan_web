@@ -1,10 +1,12 @@
+import Image from '../Images/Gruppbilder/Tandhälsan_gruppbildv1_highres.jpg';
+
 export default function Price() {
 	return (
 		<div className="min-h-screen flex flex-col justify-center items-center">
 		<div className="w-full max-w-screen-lg p-10">
 			<div className="flex flex-col space-y-10">
 				<div className="flex-1 ">
-				<img className="object-cover h-auto w-full" src="https://th.bing.com/th/id/R.e1707c345d5ac10c80a674030e606643?rik=pOsTg5KBoLuNvw&riu=http%3a%2f%2fwww.snut.fr%2fwp-content%2fuploads%2f2015%2f08%2fimage-de-paysage.jpg&ehk=1O5SWKkGpZ8yU%2b%2fAnLXG1v8k6BKxgyiXgHbOWBW1ir0%3d&risl=1&pid=ImgRaw&r=0" alt="image" />
+				<img className="object-cover h-auto w-full" src={Image} alt="image" />
 				</div>
 				<div className="flex-1 ">
 					<div>
