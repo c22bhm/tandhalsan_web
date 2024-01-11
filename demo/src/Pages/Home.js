@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { ClockIcon, MapPinIcon } from '@heroicons/react/24/outline';
 import InvisLogo from '../Images/invisalign-logo.jpg';
 import StraumannLogo from '../Images/straumann.jpg';
-import GroupImage from '../Images/Gruppbilder/Tandhälsan_gruppbildv1_highres.jpg';
+import GroupImage from '../Images/Gruppbilder/Tandhälsan_gruppbild2v3__highres.jpg';
 import Vantrum from '../Images/tandhalsan_vantrum.jpg';
 
 function Home() {

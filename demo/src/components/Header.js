@@ -4,7 +4,7 @@ import Logo from '../Images/logo.png';
 
 const navigation = [
 	{ name: 'Behandlingar', href: '/Behandlingar'},
-	{ name: 'Kontakt & Öppettider', href: '/Kontakt & Öppettider'},
+	{ name: 'Kontakt & Öppettider', href: '/Kontakt'},
 	{ name: 'Om oss', href: '/Om oss'},
 	{ name: 'Priser', href: '/Priser'},
 	{ name: 'Boka tid', href: 'https://boka.frenda.se/337741'},

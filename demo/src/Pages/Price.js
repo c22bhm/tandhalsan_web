@@ -1,4 +1,4 @@
-import Image from '../Images/Gruppbilder/Tandhälsan_gruppbildv1_highres.jpg';
+import Image from '../Images/Gruppbilder/Tandhälsan_gruppbild2v3__highres.jpg';
 
 export default function Price() {
 	return (
@@ -17,7 +17,7 @@ export default function Price() {
 						Du får alltid ett kostnadsförslag av oss 
 						innan varje behandling. <br /><br />
 						Vi är en kontantfri mottagning. Betalning 
-						sker efter varje besök med kort eller 
+						sker efter varje besök med kort, swish eller 
 						faktura via Collector och deras fakturatjänst. 
 						</p>
 					</div>

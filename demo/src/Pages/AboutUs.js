@@ -1,4 +1,4 @@
-import Image from '../Images/Gruppbilder/Tandhälsan_gruppbildv2_highres.jpg';
+import Image from '../Images/Gruppbilder/Tandhälsan_gruppbildv3_highres.jpg';
 
 export default function AboutUs() {
 	return (
