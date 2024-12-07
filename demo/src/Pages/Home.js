@@ -3,12 +3,47 @@ import { NavLink } from 'react-router-dom';
 import { ClockIcon, MapPinIcon } from '@heroicons/react/24/outline';
 import InvisLogo from '../Images/invisalign-logo.jpg';
 import StraumannLogo from '../Images/straumann.jpg';
-import GroupImage from '../Images/Gruppbilder/Tandhälsan_gruppbild2v3__highres.jpg';
+import GroupImage from '../Images/Gruppbilder/Tandhälsan_gruppbild2024v2_1.jpg';
 import Vantrum from '../Images/tandhalsan_vantrum.jpg';
 
+const emergencyNumber = '1177'
+
+const today = new Date();  // Hämta dagens datum
+const startDate = new Date(today.getFullYear(), 11, 21);  // 21 december (månad 11 är december, eftersom januari är 0)
+const endDate = new Date(today.getFullYear(), 0, 2);   // 2 januari (månad 0 är januari)
+
+const isInDateRange = today.getMonth() === startDate.getMonth() && today.getDate() >= startDate.getDate() ||
+                      today.getMonth() === endDate.getMonth() && today.getDate() <= endDate.getDate();
+
 function Home() {
+	// Define start and end dates
+	//const startDate = new Date('2024-12-21');  // 21st December 2024
+	//const endDate = new Date('2025-01-02');    // 2nd January 2025
+	//const today = new Date(); // Get today's date
+    
+	// Check if today is within the date range
+	//const isInDateRange = today >= startDate && today <= endDate;
+
 	return (
 		<div className="min-h-screen">
+			{isInDateRange && (
+				<div className="py-4">
+					<div className="max-w-screen-lg mx-auto px-4">
+						<div className="flex flex-col md:flex-row items-center justify-center">
+							<p className="text-gray-400 font-bold text-m font-system mt-2">
+								Vi har nu stängt för julledighet och är åter 2/1. <br/>
+								<span className='block text-center'>
+									Vid akuta besvär ring 
+									<a  href={'1177'}>
+										{emergencyNumber}
+									</a>
+								</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			)}
+
 			<div className="relative mb-16 sm:mb-0">
 				<img className="w-full h-auto" src={Vantrum} alt="image" />
 				<div className="p-5 bg-zinc-900 w-full absolute text-white justify-center 
@@ -88,12 +123,10 @@ function Home() {
 		Straumann 
 				</h3>
 				<p className="text-gray-400 font-normal text-sm font-system mt-2">
-				Ett vackrare leende, bättre 
-				tuggfunktion eller minskat slitage 
-				- det finns många anledningar till 
-				att rätta till sneda tänder, även 
-				som vuxen. Vi arbetar med 
-				nvisalign-systemet.
+				Implantat ersätter en eller flera förlorade 
+				tänder med en konstgjord rot i titan. Vi 
+				utför hela behandlingen från operation 
+				till färdig tand här på kliniken.
 				</p>
 				<NavLink
 		to="https://www.straumann.com/en/dental-professionals.html"

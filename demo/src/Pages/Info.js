@@ -1,18 +1,22 @@
 import React from 'react';
-import Image from '../Images/Gruppbilder/Tandhälsan_gruppbildv3_highres.jpg';
+import Image from '../Images/Gruppbilder/Tandhälsan_gruppbild2024v2_ny.jpg';
 import FredrikPort from '../Images/PersonalPorträtt/Fredrik1.jpg';
 import AngelicaPort from '../Images/PersonalPorträtt/Angelica1.jpg';
-import MalinPort from '../Images/PersonalPorträtt/Malin1.jpg';
+import MalinPort from '../Images/PersonalPorträtt/Malin2.jpg';
 import MonicaPort from '../Images/PersonalPorträtt/Monica1.jpg';
 import FridaPort from '../Images/PersonalPorträtt/Frida1.jpg';
-import SallaPort from '../Images/PersonalPorträtt/Salla1.jpg';
+import SallaPort from '../Images/PersonalPorträtt/Salla2.jpg';
+import SaraPort from '../Images/PersonalPorträtt/Sara1.jpg';
+import OliverPort from '../Images/PersonalPorträtt/Oliver.jpg';
 const employeeData = [
 	{name: 'Fredrik Hellström', role: 'Leg. Tandläkare', imageSrc: FredrikPort,},
-	{name: 'Angelica', role: 'Tandsköterska', imageSrc: AngelicaPort,},
+	{name: 'Angelica', role: 'Koordinator', imageSrc: AngelicaPort,},
 	{name: 'Frida', role: 'Tandsköterska', imageSrc: FridaPort,},
 	{name: 'Malin', role: 'Tandhygienist', imageSrc: MalinPort,},
 	{name: 'Monica', role: 'Tandsköterska', imageSrc: MonicaPort,},
 	{name: 'Salla', role: 'Leg. Tandläkare', imageSrc: SallaPort,},
+	{name: 'Oliver', role: 'Tandsköterska', imageSrc: OliverPort,},
+	{name: 'Sara', role: 'Assistent', imageSrc: SaraPort,},
 ]
 
 export default function Info() {
