@@ -18,7 +18,7 @@ export default function Price() {
 						innan varje behandling. <br /><br />
 						Vi är en kontantfri mottagning. Betalning 
 						sker efter varje besök med kort, swish eller 
-						faktura via Collector och deras fakturatjänst. 
+						faktura via Walley och deras fakturatjänst. 
 						</p>
 					</div>
 					<div>
@@ -27,7 +27,7 @@ export default function Price() {
 						</h1>
 						<p className="text-gray-400 font-normal text-sm font-system">
 						Hos oss får du kostnadsfri tandvård 
-						till och med det år du fyller 23 år. 
+						till och med det år du fyller 20 år. 
 						Därefter kan du ta del av tandvårdsbidrag 
 						och högkostnadsskyddet via Försäkringskassan. 
 						<br /> <br />
