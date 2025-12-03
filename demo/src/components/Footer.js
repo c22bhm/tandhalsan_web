@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../Images/logotype.png';
+import logo from '../Images/tandhalsan_ovik_ny_logo.png';
 import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid';
 
 const phoneNumber = '0660-164 00';

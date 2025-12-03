@@ -1,6 +1,6 @@
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import Logo from '../Images/logo.png';
+import Logo from '../Images/tandhalsan_ovik_ny_logo.png';
 
 const navigation = [
 	{ name: 'Behandlingar', href: '/Behandlingar'},
